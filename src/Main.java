@@ -1,14 +1,13 @@
-import sevice.DemoService;
-import sevice.DemoServiceImpl;
-import sevice.DemoServiceImplMock;
+import sevice.demo.DemoTest;
+import sevice.demo.DemoTestImpl;
 
 public class Main {
 
     public static void main(String[] args) {
         String arg = "Test Action";
-        DemoService demoService = new DemoServiceImplMock();
 
-        demoService.makeAction(arg);
-        System.out.println("LOG: test end");
+        DemoTest demo = new DemoTestImpl();
+
+        demo.makeTest(arg);
     }
 }
