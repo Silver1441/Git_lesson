@@ -1,13 +1,13 @@
-import sevice.*;
+import sevice.demo.DemoTest;
+import sevice.demo.DemoTestImpl;
 
 public class Main {
 
     public static void main(String[] args) {
         String arg = "Test Action";
-        DemoService demoService = new DemoServiceImplMock();
-        AdditionalFeature additionalFeature = new AdditionalFeatureImpl();
 
-        demoService.makeAction(arg);
-        additionalFeature.makeAnAwesomeThing();
+        DemoTest demo = new DemoTestImpl();
+
+        demo.makeTest(arg);
     }
 }
