@@ -9,5 +9,6 @@ public class Main {
         DemoService demoService = new DemoServiceImplMock();
 
         demoService.makeAction(arg);
+        System.out.println("LOG: test end");
     }
 }
