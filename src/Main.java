@@ -13,5 +13,8 @@ public class Main {
         demo.makeTest(arg);
         demo.makeTest(newArg);
         System.out.println("LOG: end");
+=======
+        demoService.makeAction(arg);
+>>>>>>> eb94782... LOG end is added
     }
 }
