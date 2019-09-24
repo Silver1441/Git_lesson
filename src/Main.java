@@ -4,7 +4,7 @@ import sevice.demo.DemoTestImpl;
 public class Main {
 
     public static void main(String[] args) {
-        String arg = "Test Action";
+        String arg = "New test Action";
 
         DemoTest demo = new DemoTestImpl();
 
