@@ -4,6 +4,7 @@ import sevice.demo.DemoTestImpl;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("LOG: start");
         String arg = "New test Action";
         String newArg = "Testing new args";
 
@@ -11,5 +12,6 @@ public class Main {
 
         demo.makeTest(arg);
         demo.makeTest(newArg);
+        System.out.println("LOG: end");
     }
 }
