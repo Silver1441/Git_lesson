@@ -8,13 +8,14 @@ public class Main {
         String arg = "New test Action";
         String newArg = "Testing new args";
 
+<<<<<<< HEAD
         DemoTest demo = new DemoTestImpl();
 
         demo.makeTest(arg);
         demo.makeTest(newArg);
-        System.out.println("LOG: end");
 =======
         demoService.makeAction(arg);
+        System.out.println("LOG: test end");
 >>>>>>> eb94782... LOG end is added
     }
 }
