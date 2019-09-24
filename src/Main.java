@@ -13,5 +13,6 @@ public class Main {
         demo.makeTest(arg);
         demo.makeTest(newArg);
         System.out.println("LOG: end");
+        System.out.println("LOG: test end");
     }
 }
