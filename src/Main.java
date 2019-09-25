@@ -1,18 +1,16 @@
 import sevice.demo.DemoTest;
 import sevice.demo.DemoTestImpl;
+import sevice.entity.StringArg;
 
 public class Main {
 
     public static void main(String[] args) {
         System.out.println("LOG: test start");
-        String arg = "New test Action";
-        String newArg = "Testing new args";
+        StringArg arg = new StringArg("tested feature");
 
         DemoTest demo = new DemoTestImpl();
 
-        demo.makeTest(arg);
-        demo.makeTest(newArg);
-        System.out.println("LOG: end");
+        demo.makeTest(arg.getArg());
         System.out.println("LOG: test end");
     }
 }
